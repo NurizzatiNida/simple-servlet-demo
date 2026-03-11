@@ -19,6 +19,6 @@ public class HelloServlet extends HttpServlet {
 
         PrintWriter out = response.getWriter();
 
-        out.println("<h1>Hello from Jenkins Deployment</h1>");
+        out.println("<h1>Hello from Jenkins Pipeline - Version 2</h1>");
     }
 }
